@@ -1,0 +1,64 @@
+.sharp{
+    color: #fff;
+}
+#Logo{
+    height: auto;
+    width: 100%;
+    margin-top: 65%;
+}
+#introText{
+    margin-top: 5%;
+}
+.introSignUpBtn{
+    color: #fff;
+    font-size: 22px;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+}
+.learnMore{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+    color: #0071e3;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+}
+#salesImg{
+    width: auto;
+    height: 375px;
+    margin-top: 5%;
+    
+}
+#marketingImg{
+    width: auto;
+    height: 75%;
+    
+}
+#designImg{
+    width: 100%;
+    height: auto;
+}
+#productionImg{
+   width: 100%;
+    height: auto;
+    
+}
+#popUpImg{
+   width: 100%;
+    height: auto;
+    
+}
+#tradeShowImg{
+   width: 100%;
+    height: auto;
+    
+}
+#shippingImg{
+   width: 55%;
+    height: auto;
+    
+}
