@@ -18,7 +18,6 @@ class Index extends Component {
         return (
             <div>
                 <NavBar/>
-                <Widget/>
                 <Intro/>
                 <Marketing />
                 <Sales />

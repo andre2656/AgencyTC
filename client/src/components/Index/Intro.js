@@ -10,7 +10,7 @@ class Intro extends Component{
     render() {
     return(
         <div className = "container" style = {{ display: 'block', backgroundColor: '#000', }}>
-    <div className="row" style={{ backgroundColor: '#000', position: 'absolute', right: 0, left: 0, height: 900, marginTop: 100, }}>
+    <div className="row" style={{ backgroundColor: '#000', position: 'absolute', right: 0, left: 0, height: 900, marginTop: 20, }}>
         <div className="col-md-1" />
         <div className="col-md-6" id='introText'>
             <h2 className="sharp">Agency Name</h2>

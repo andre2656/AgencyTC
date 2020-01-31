@@ -40,53 +40,42 @@ class Widget extends Component {
             <div id='NavBody'>
                 <div className="" id="">
                     <div className="row" id='widgetRow'>
-
                         {/* <div className="col-md-1" >
                                 <img id='widgetLogo' src="images/TCLogo.jpg" alt='shop' />
                             </div> */}
                         <div className='col-md-2' />
                         <div className="col-md-1.5" id='widget'>
                             <button className="navButton" onClick={this.Sales}>
-                                <img id='widgetLogo' src="images/salesIcon.jpg" alt='shop' />
                                 <p className="navTabsTop">Sales</p>
                             </button>
                         </div>
                         <div className="col-md-1.5" id='widget' >
                             <button className="navButton" onClick={this.Production}>
-                                <img id='widgetLogo' src="images/productionIcon.jpg" alt='shop' />
                                 <p className="navTabsTop">Production</p>
                             </button>
                         </div>
                         <div className="col-md-1.5" id='widget' >
                             <button className="navButton" onClick={this.Design}>
-                                <img id='widgetLogo' src="images/designIcon.jpg" alt='shop' />
                                 <p className="navTabsTop">Design</p>
                             </button>
                         </div>
                         <div className="col-md-1.5" id='widget' >
                             <button className="navButton" onClick={this.MarketingPR}>
-                                <img id='widgetLogo' src="images/salesIcon.jpg" alt='shop' />
                                 <p className="navTabsTop">Marketing & PR</p>
                             </button>
                         </div>
                         <div className="col-md-1.5" id='widget' >
                             <button className="navButton" onClick={this.TradeShow}>
-                                <img id='widgetLogo' src="images/productionIcon.jpg" alt='shop' />
                                 <p className="navTabsTop">Trade Show</p>
                             </button>
                         </div>
-
-
                         <div className="col-md-1.5" id='widget' >
                             <button className="navButton" onClick={this.PopUp}>
-                                <img id='widgetLogo' src="images/designIcon.jpg" alt='shop' />
                                 <p className="navTabsTop">Pop Up Shop</p>
                             </button>
                         </div>
-
                         <div className="col-md-1.5" id='widget' >
                             <button className="navButton" onClick={this.ShippingLogistics}>
-                                <img id='widgetLogo' src="images/productionIcon.jpg" alt='shop' />
                                 <p className="navTabsTop">Shipping & Logistics</p>
                             </button>
                         </div>

@@ -6,7 +6,7 @@ import './Index.css'
 const Marketing = () => {
     return (
         <div className="container" style={{ display: 'block',  }}>
-            <div className="row" style={{ backgroundColor: '#fff',position: 'absolute', right: 50, left: 50, top: 1050, height: 550 }}>
+            <div className="row" style={{ backgroundColor: '#fff',position: 'absolute', right: 50, left: 50, top: 1020, height: 550 }}>
                
                 <div className='col-md-7'>
                     <img id='marketingImg' src="images/marketingImage.jpg" alt='Sales Img' />

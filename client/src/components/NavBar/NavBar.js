@@ -6,16 +6,18 @@ import { Modal } from 'react-bootstrap';
 
 class NavBar extends Component {
   state = {
-    email: "",
+    username: "",
     password: "",
     error: null,
     loggedIn: false,
-    user: null
+    user: null,
+    salesDrop: 'none',
+    showPassword: false,
   }
   login = (e) => {
     e.preventDefault();
 
-    loginController.login(this.state.email, this.state.password, (err, user) => {
+    loginController.login(this.state.username, this.state.password, (err, user) => {
 
       if (err) {
         this.handleShow()
@@ -24,7 +26,12 @@ class NavBar extends Component {
       }
     });
   }
-
+  forgotPassword = () => {
+    this.setState({ showPassword: true });
+  }
+  closePassword = () => {
+    this.setState({ showPassword: false });
+  }
   inputChanged = event => {
     this.setState({ [event.target.name]: event.target.value });
   }
@@ -49,53 +56,65 @@ class NavBar extends Component {
              <img id='navLogo'src="images/TCLogo.jpg" alt='shop' />
                 </div>
 
-                <div className='col-md-7'>
-
-                </div>
-              {/* <div className="col-md-1">
-                <button className="navButton" onClick={this.Sales}>
+              <div className="col-md-1.5" id='widget'>
+                <button className="navButton row" onClick={this.Sales}>
                   <p className="navTabsTop">Sales</p>
                 </button>
+                <div className='row' style={{ height: 100, display: this.state.salesDrop }}>
+                  <button className="navButton" onClick={this.Sales}>
+                    <p className="navTabsTop">Open Page</p>
+                  </button>
+                  <button className="navButton" onClick={this.Sales}>
+                    <p className="navTabsTop">Scroll to</p>
+                  </button>
+                </div>
               </div>
-              <div className="col-md-1">
+              
+              <div className="col-md-1.5" id='widget' >
                 <button className="navButton" onClick={this.Production}>
                   <p className="navTabsTop">Production</p>
                 </button>
               </div>
-              <div className="col-md-1">
+              <div className="col-md-1.5" id='widget' >
                 <button className="navButton" onClick={this.Design}>
                   <p className="navTabsTop">Design</p>
                 </button>
               </div>
-              <div className="col-md-1">
+              <div className="col-md-1.5" id='widget' >
+                <button className="navButton" onClick={this.MarketingPR}>
+                  <p className="navTabsTop">Marketing & PR</p>
+                </button>
+              </div>
+              <div className="col-md-1.5" id='widget' >
                 <button className="navButton" onClick={this.TradeShow}>
                   <p className="navTabsTop">Trade Show</p>
                 </button>
               </div>
-              <div className="col-md-1">
-                <button className="navButton" onClick={this.MarketingPR}>
-                  <p className="navTabs">Marketing & PR</p>
-                </button>
-              </div>
-             
-              <div className="col-md-1">
+              <div className="col-md-1.5" id='widget' >
                 <button className="navButton" onClick={this.PopUp}>
-                  <p className="navTabs">Pop Up Shop Development</p>
+                  <p className="navTabsTop">Pop Up Shop</p>
                 </button>
               </div>
-              
-              <div className="col-md-1">
+              <div className="col-md-1.5" id='widget' >
                 <button className="navButton" onClick={this.ShippingLogistics}>
-                  <p className="navTabs">Shipping & Logistics</p>
+                  <p className="navTabsTop">Shipping & Logistics</p>
                 </button>
-              </div> */}
-              <div className="col-md-1.5"><input type="email" className=" login-input" id="login-email" placeholder="Email" name="email" onChange={this.inputChanged} /></div>
-              <div className="col-md-1.5"><input type="password" className=" login-input" id="login-password" placeholder="Password" name="password" onChange={this.inputChanged} /></div>
-              <button type="button" id="btn-id" className="btn btn-dark" onClick={this.login} value="Login">Sign in</button>
-              
+              </div>
+              <div className="col-md-1.5"><input type="email" className=" login-input" id="login-email" placeholder="Username" name="username" onChange={this.inputChanged} /></div>
+              <div className="col-md-1.5"><input type="password" className=" login-input" id="login-password" placeholder="Password" name="password" onChange={this.inputChanged} /> <button type="button" id="btn-forgotPass" onClick={this.forgotPassword} value="Login">?</button></div>
+              <button type="button" id="btn-id" onClick={this.login} value="Login"><img id='signInBtn' src="images/signInImg.jpg" alt='shop'/></button>
             </div>
           </div>
         </form>
+        <Modal show={this.state.showPassword} onHide={this.closePassword}>
+          <Modal.Header closeButton>
+            <Modal.Body>
+              <div>
+                <h5 className='row'>Forgot Password?</h5>
+              </div>
+            </Modal.Body>
+          </Modal.Header>
+        </Modal>
         <Modal show={this.state.show} onHide={this.handleClose}>
           <Modal.Header closeButton>
             <Modal.Body>
