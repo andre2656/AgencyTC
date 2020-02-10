@@ -9,6 +9,7 @@ import './Index.css';
 import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
 import PopUpTradeShow from "./PopUpTradeShow";
 import Shipping from './Shipping'
+import Footer from './Footer'
 
 class Index extends Component {
     state = {
@@ -24,6 +25,7 @@ class Index extends Component {
                 <ProductionMarketing/>
                 <PopUpTradeShow/>
                 <Shipping/>
+                <Footer/>
             </div>
         );
     }

@@ -6,7 +6,7 @@ import './Index.css'
 const PopUpTradeShow = () => {
     return (
         <div className="container" style={{ display: 'block', backgroundColor: '#000', }}>
-            <div className="row" style={{ backgroundColor: '#fff', position: 'absolute', right: 50, left: 50, top: 2700, height: 550 }}>
+            <div className="row" style={{ backgroundColor: '#fff', position: 'absolute', right: 50, left: 50, top: 2700, height: 650 }}>
                 <div className="col-md-1" />
                 <div className="col-md-4" id='introText'>
                     <img id='popUpImg' src="images/popUpImage.jpeg" alt='Pop Up Shop Img' />
