@@ -33,6 +33,9 @@
      right: 0px;
      left: 0px;
 }
+#dropDownButton{
+    color: white
+}
 #widgetRow{
     background-color: #1d1d1f;
     height: 50px;

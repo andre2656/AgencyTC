@@ -5,7 +5,7 @@ import Index from "./components/Index/Index"
 import SignUp from './components/SignUp/SignUp';
 import StyleApp from './components/StyleApp/StyleApp';
 import loginController from "./controllers/LoginController";
-
+import Contact from './components/Contact/Contact'
 // import Styles from './components/StyleApp/StyleRecognition/StyleRecognition'
 
 
@@ -38,6 +38,7 @@ class App extends Component {
         <div>
           <Route exact path="/" component={Index} />
           <Route exact path="/sign-up" component={SignUp} />
+          <Route exact path="/contact" component={Contact} />
           {/* <Route exact path="/payment" component={Payment} /> */}
           {/* <Route exact path="/settings" component={SettingsForm} /> */}
           <Route exact path="/app" component={StyleApp} />

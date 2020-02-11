@@ -44,13 +44,13 @@ class Footer extends Component {
     render() {
         return (
             <div className="container" style={{ display: 'block', backgroundColor: '#000', }}>
-                <div className="row" style={{ backgroundColor: '#000', position: 'absolute', right: 0, left: 0, height: 120, top: 3900 }}>
+                <div className="row" style={{ backgroundColor: '#000', position: 'absolute', right: 0, left: 0, height: 120, top: 1100 }}>
                     <div className="col-md-1" />
                     <div className="col-md-1" style={{ maxWidth: 100 }} >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5 }}>
                             <a href='#' className='footerLink' >About</a><br />
                             <a href='/contact' className='footerLink' >Contact</a><br />
-                            <a href='/sign-up' className='footerLink' >Sign Up</a><br />
+                            <a href='#' className='footerLink' >Sign Up</a><br />
                         </p>
                     </div>
                     <div className="col-md-1" style={{ minWidth: 150 }} >
@@ -84,8 +84,8 @@ class Footer extends Component {
                             <a href='#' className='footerLink' >Shipping & Logistics</a><br />
                         </p>
                     </div>
-                
-                    <div className="col-md-3"/>
+
+                    <div className="col-md-3" />
                     <div className="col-md-3" style={{ marginTop: '3%' }}>
                         <input type="email" className=" login-input" id="login-email" placeholder="Username" name="username" onChange={this.inputChanged} />
                         <input type="password" className=" login-input" id="login-password" placeholder="Password" name="password" onChange={this.inputChanged} /> <button type="button" id="btn-forgotPass" onClick={this.forgotPassword} value="Login">?</button>

@@ -55,7 +55,7 @@ class NavBar extends Component {
 
               <div className="col-md-1.5" id='widget'>
                   <div class="btn-group">
-                    <button type="button" class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Sales</p></button>
+                    <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><p className="navTabsTop">Sales</p></button>
                    <div class="dropdown-menu" id='dropMenu'>
                       <a class="dropdown-item" id='dropItem' onClick={this.Sales}>Scroll</a>
                        <div class="dropdown-divider" id='dropDivider'></div>
@@ -65,7 +65,7 @@ class NavBar extends Component {
               </div>
               <div className="col-md-1.5" id='widget'>
                 <div class="btn-group">
-                  <button type="button" class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Production</p></button>
+                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Production</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
                     <a class="dropdown-item" id='dropItem' onClick={this.Production}>Scroll</a>
                      <div class="dropdown-divider" id='dropDivider'></div>
@@ -75,7 +75,7 @@ class NavBar extends Component {
               </div>
               <div className="col-md-1.5" id='widget'>
                 <div class="btn-group">
-                  <button type="button" class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Design</p></button>
+                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Design</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
                     <a class="dropdown-item" id='dropItem' onClick={this.Design}>Scroll</a>
                      <div class="dropdown-divider" id='dropDivider'></div>
@@ -85,7 +85,7 @@ class NavBar extends Component {
               </div>
               <div className="col-md-1.5" id='widget'>
                 <div class="btn-group">
-                  <button type="button" class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Marketing & PR</p></button>
+                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Marketing & PR</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
                     <a class="dropdown-item" id='dropItem' onClick={this.MarketingPR}>Scroll</a>
                      <div class="dropdown-divider" id='dropDivider'></div>
@@ -95,7 +95,7 @@ class NavBar extends Component {
               </div>
               <div className="col-md-1.5" id='widget'>
                 <div class="btn-group">
-                  <button type="button" class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Trade Show</p></button>
+                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Trade Show</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
                     <a class="dropdown-item" id='dropItem' onClick={this.TradeShow}>Scroll</a>
                      <div class="dropdown-divider" id='dropDivider'></div>
@@ -105,7 +105,7 @@ class NavBar extends Component {
               </div>
               <div className="col-md-1.5" id='widget'>
                 <div class="btn-group" id= 'dropGroup'>
-                  <button type="button" class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Pop Up Shop</p></button>
+                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Pop Up Shop</p></button>
                   <div class="dropdown-menu" id='dropMenu'>
                     <a class="dropdown-item" id='dropItem' onClick={this.PopUp}>Scroll</a>
                      <div class="dropdown-divider" id='dropDivider'></div>
@@ -115,7 +115,7 @@ class NavBar extends Component {
               </div>
               <div className="col-md-1.5" id='widget'>
                 <div class="btn-group">
-                  <button type="button" class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Shipping & Logistics</p></button>
+                  <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Shipping & Logistics</p></button>
                   <div class="dropdown-menu" id='dropMenu'>
                     <a class="dropdown-item" id='dropItem' onClick={this.ShippingLogistics}>Scroll</a>
                     <div class="dropdown-divider" id='dropDivider'></div>

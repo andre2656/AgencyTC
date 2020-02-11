@@ -16,6 +16,107 @@
     border: none;
     border-radius: 50px;
 }
+.footerLink{
+    
+    color: white;
+}
+#textareaContact{
+    border: none;
+    border: 5px solid #1c1e25;;
+    border-top: solid 4px ;
+    border-radius: 5px;
+    text-align: left;
+    background-color: white;
+    height: 150px;
+    padding: 6px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+#submitContact{
+    border: #1c1e25 6px solid;
+    color: #1c1e25;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-top: 12%;
+    margin-right: 20%;
+}
+#submitContact:hover{
+    color: red;
+    text-decoration: underline;
+    outline: none;
+    background-color: #00599c;
+}
+#contactSubmit{
+    font-size: 25px;
+    padding: 0px
+}
+#formContact{
+    background-color: white;
+    padding-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0%;
+    margin-left: 0%;
+    border-top: solid 7px #00599c;
+    border-bottom: solid 8px #1c1e25;
+    border-right: solid 8px #1c1e25;
+    border-left: solid 8px #1c1e25;
+    width: auto;
+}
+#titleContact{
+    padding-bottom: 10px;
+    margin-top: 25px
+}
+#formHeadingContact{
+    padding-bottom: 25px;
+    border-bottom: 8px solid #1c1e25;
+    width: 100%
+}
+#pageTitleContact{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#titleRowContact{
+    background-color: #1c1e25;
+    border-bottom: 8px solid #1c1e25;
+    border-left: 5px solid #1c1e25;
+    border-right: 5px solid #1c1e25;
+    border-top: solid 7px #00599c ;
+    color: white;
+}
+#pagetitleContact{
+    border-top: solid 7px #00599c ;
+    background-color: #1c1e25;
+    color: white;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+#CK_Contact{
+    background-color: white;
+    border-top: solid 2px black ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 7px solid black;
+
+}
+#licensesContact{
+    text-align: left;
+    font-size: 16px;
+}
+#contactContact{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ContactPadding{
+    padding-bottom: 50px
+}
+#emailContact{
+    color: #00599c
+}
 .learnMore{
     display: block;
    margin-left: auto;
@@ -26,6 +127,15 @@
     background-color: transparent;
     border: none;
     border-radius: 50px;
+}
+#inputContact{
+    border: none;
+    border-bottom:2px solid black;
+    text-align: left;
+    background-color:  white;
+    font-size: 16px;
+    padding-bottom: 0px;
+    outline: none;
 }
 #salesImg{
     width: auto;
