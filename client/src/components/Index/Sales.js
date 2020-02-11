@@ -10,7 +10,7 @@ const Sales = () => {
                 <div className="col-md-1" />
                 <div className="col-md-4" id='introText'>
                     <h2 className="dark">Sales</h2>
-                    <p style={{ fontSize: 33 }} className='dark'>
+                    <p style={{ fontSize: 25 }} className='dark'>
                         Sales strategy/training
                         Identifying strengths and weakness in companies structure/operation. 
                     </p>

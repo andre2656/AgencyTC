@@ -13,7 +13,7 @@ const Marketing = () => {
                 </div>
                 <div className="col-md-4" id='introText'>
                     <h2 className="dark">Marketing & PR</h2>
-                    <p style={{ fontSize: 33 }} className='dark'>
+                    <p style={{ fontSize: 20 }} className='dark'>
                        Social Media Development.<br/>
                         Press.
                         Celebrity Adoption.<br />

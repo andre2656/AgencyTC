@@ -9,5 +9,7 @@ h1, h2, button {
  font-family: 'Source Sans Pro', sans-serif;
  outline: none !important;
 }
-
+input:focus{
+  outline: #0071e3 2px solid!important;
+}
 

@@ -86,7 +86,7 @@ class Footer extends Component {
                     </div>
                 
                     <div className="col-md-3"/>
-                    <div className="col-md-3" style={{ marginTop: '3%' }}>
+                    <div className="col-md-3" style={{ marginTop: 60 }}>
                         <input type="email" className=" login-input" id="login-email" placeholder="Username" name="username" onChange={this.inputChanged} />
                         <input type="password" className=" login-input" id="login-password" placeholder="Password" name="password" onChange={this.inputChanged} /> <button type="button" id="btn-forgotPass" onClick={this.forgotPassword} value="Login">?</button>
                         <button type="button" id="btn-id" onClick={this.login} value="Login"><img id='signInBtn' src="images/signInImg.jpg" alt='shop' /></button>

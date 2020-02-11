@@ -13,7 +13,7 @@ const Shipping = () => {
                 </div>
                 <div className="col-md-4" id='introText'>
                     <h2 className="dark">Shipping & Logistics</h2>
-                    <p style={{ fontSize: 33 }} className='dark'>
+                    <p style={{ fontSize: 25 }} className='dark'>
                         Domestic/International.
                         Distribution Planning.
                         3PL.

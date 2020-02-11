@@ -11,7 +11,7 @@ const PopUpTradeShow = () => {
                 <div className="col-md-4" id='introText'>
                     <img id='popUpImg' src="images/popUpImage.jpeg" alt='Pop Up Shop Img' />
                     <h2 className="dark">Pop Up Shop Development</h2>
-                    <p style={{ fontSize: 33 }} className='dark'>
+                    <p style={{ fontSize: 25 }} className='dark'>
                       Design/Planning/Budget.
                     T&A Plan.
                     Analytic Projections/Results.
@@ -24,7 +24,7 @@ const PopUpTradeShow = () => {
                 <div className="col-md-4" id='introText'>
 
                     <h2 className="dark">Trade Show</h2>
-                    <p style={{ fontSize: 33 }} className='dark'>
+                    <p style={{ fontSize: 25 }} className='dark'>
                    Design/Planning/Budget.
                     T&A Plan.
                     Booth Design.

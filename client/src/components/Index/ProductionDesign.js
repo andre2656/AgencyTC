@@ -11,7 +11,7 @@ const ProductionDesign = () => {
                 <div className="col-md-4" id='introText'>
                     <img id='designImg' src="images/designImage.png" alt='Design Img' />
                     <h2 className="dark">Design</h2>
-                    <p style={{ fontSize: 33 }} className='dark'>
+                    <p style={{ fontSize: 25 }} className='dark'>
                      Conception.
                     Yearly Plans (Budget/T&A).
                     Graphic Design.
@@ -24,7 +24,7 @@ const ProductionDesign = () => {
                 <div className="col-md-4" id='introText'>
                     
                     <h2 className="dark">Production</h2>
-                    <p style={{ fontSize: 33 }} className='dark'>
+                    <p style={{ fontSize: 25 }} className='dark'>
                         Planning & Strategy.
                        Factory Placement.
                        Delivery & Distribution.

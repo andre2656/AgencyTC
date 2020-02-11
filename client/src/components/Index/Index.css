@@ -119,9 +119,9 @@
 }
 .learnMore{
     display: block;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 15px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 15px;
     color: #0071e3;
     font-size: 18px;
     background-color: transparent;
