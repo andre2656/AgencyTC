@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import validator from 'validator';
-import NavBar from '../NavBar/NavBar'
-import Footer from './Footer'
+import NavBar from '../Navs/NavBar'
+import Footer from '../Navs/Footer'
 class Contact extends React.Component {
     state = {
         name: '',
@@ -83,8 +83,9 @@ class Contact extends React.Component {
                             </div>
                             <br /><br /><br />
                             <div className='row'>
-                                <div className='col-md-1'></div>
+                                <div className='col-md-1'/>
                                 <textarea id='textareaContact' className='col-md-6' name='Message' type='text' placeholder='Message' onChange={this.messageOnChange} />
+                                <div className='col-md-1' />
                                 <div className='col-md-4'><button type='submit' id="submitContact" onClick={this.handleSubmit}><h4 id='contactSubmit'>Submit</h4></button></div>
                             </div>
                             <br /><br />
@@ -100,16 +101,20 @@ class Contact extends React.Component {
                 </div>
                 <div className='row' id='CK_Contact'>
                     <div className='col-md-1'></div>
-                    <h6 className='col-md-5'>
+                    <div className='col-md-5'>
                         <h5 id='contactContact'>Contact- Terrence Campbell</h5><br />
                         <h6 id='licensesContact'><strong>Address:</strong> <a href='https://goo.gl/maps/WpgBrZrXP4kefCYk7' target='_blank'> 44 Cipresso 
                             Irvine, CA 
                             92603-0105</a></h6><br/>
                         <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:tcamp0171@gmail.com'>tcamp0171@gmail.com</a></h6><br />
                         <h6 id='licensesContact'><strong>Phone:</strong> (949) 345-9836</h6><br />
-                    </h6>
+                    </div>
                     <div className='col-md-1'></div>
                     <div className='col-md-5'>
+                        <h5 id='contactContact'>Contact- Full Name</h5><br />
+                        <h6 id='licensesContact'><strong>Address:</strong> <a href='#' target='_blank'> Address With Link</a></h6><br />
+                        <h6 id='licensesContact'><strong>Email:</strong> <a href='mailto:tcamp0171@gmail.com'>Email@email.com</a></h6><br />
+                        <h6 id='licensesContact'><strong>Phone:</strong> (310) 555-8421</h6><br />
                     </div>
                 </div>
                 <div className='ContactPadding'></div>

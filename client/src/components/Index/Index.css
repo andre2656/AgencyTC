@@ -17,7 +17,7 @@
     border-radius: 50px;
 }
 .footerLink{
-    
+    text-decoration: underline;
     color: white;
 }
 #textareaContact{
@@ -42,10 +42,10 @@
     margin-right: 20%;
 }
 #submitContact:hover{
-    color: red;
+    color: white;
     text-decoration: underline;
     outline: none;
-    background-color: #00599c;
+    background-color: #0071e3;
 }
 #contactSubmit{
     font-size: 25px;
@@ -58,7 +58,7 @@
     margin-bottom: 50px;
     margin-right: 0%;
     margin-left: 0%;
-    border-top: solid 7px #00599c;
+    border-top: solid 7px #0071e3;
     border-bottom: solid 8px #1c1e25;
     border-right: solid 8px #1c1e25;
     border-left: solid 8px #1c1e25;
@@ -82,11 +82,11 @@
     border-bottom: 8px solid #1c1e25;
     border-left: 5px solid #1c1e25;
     border-right: 5px solid #1c1e25;
-    border-top: solid 7px #00599c ;
+    border-top: solid 7px #0071e3 ;
     color: white;
 }
 #pagetitleContact{
-    border-top: solid 7px #00599c ;
+    border-top: solid 7px #0071e3 ;
     background-color: #1c1e25;
     color: white;
     border-left: 5px solid black;
@@ -115,7 +115,7 @@
     padding-bottom: 50px
 }
 #emailContact{
-    color: #00599c
+    color: #0071e3
 }
 .learnMore{
     display: block;
