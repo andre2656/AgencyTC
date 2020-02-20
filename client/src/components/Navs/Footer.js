@@ -45,8 +45,7 @@ class Footer extends Component {
         return (
             <div className="container" style={{ display: 'block', backgroundColor: '#000', }}>
                 <div className="row" style={{ backgroundColor: '#000', position: 'absolute', right: 0, left: 0, height: 120, top: 1100 }}>
-                    <div className="col-md-1" />
-                    <div className="col-md-1" style={{ maxWidth: 100 }} >
+                    <div className="col-md-1" style={{ maxWidth: 100,  }} >
                         <p style={{ color: 'white', fontSize: 16, paddingTop: 5 }}>
                             <a href='#' className='footerLink' >About</a><br />
                             <a href='/contact' className='footerLink' >Contact</a><br />
@@ -85,8 +84,7 @@ class Footer extends Component {
                         </p>
                     </div>
 
-                    <div className="col-md-3" />
-                    <div className="col-md-3" style={{ marginTop: '3%' }}>
+                    <div className="col-md-3" style={{ marginTop: '3%', position: 'absolute', right: 10 }}>
                         <input type="email" className=" login-input" id="login-email" placeholder="Username" name="username" onChange={this.inputChanged} />
                         <input type="password" className=" login-input" id="login-password" placeholder="Password" name="password" onChange={this.inputChanged} /> <button type="button" id="btn-forgotPass" onClick={this.forgotPassword} value="Login">?</button>
                         <button type="button" id="btn-id" onClick={this.login} value="Login"><img id='signInBtn' src="images/signInImg.jpg" alt='shop' /></button>

@@ -78,7 +78,7 @@ class Contact extends React.Component {
                                 <div className='col-md-1'></div>
                                 <input className='col-md-4' id='inputContact' name='Name' type='text' placeholder='Company Name' onChange={this.nameOnChange} />
                                 <div className='col-md-2'></div>
-                                <input className='col-md-4' id='inputContact' name='Phone' type='number' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
+                                <input className='col-md-4' id='inputContact' name='Phone' type='phone' placeholder='Phone (optional)' onChange={this.phoneOnChange} />
                                 <div className='col-md-1'></div>
                             </div>
                             <br /><br /><br />

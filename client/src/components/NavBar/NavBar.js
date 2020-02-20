@@ -81,9 +81,9 @@ class NavBar extends Component {
                   <div class="btn-group">
                     <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><p className="navTabsTop">Sales</p></button>
                    <div class="dropdown-menu" id='dropMenu'>
-                      <a class="dropdown-item" id='dropItem' onClick={this.Sales}>Scroll</a>
+                      <div class="dropdown-item" id='dropItem' onClick={this.Sales}>Scroll</div>
                        <div class="dropdown-divider" id='dropDivider'></div>
-                    <a class="dropdown-item" id='dropItem' onClick={this.SalesPage}>View More</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.SalesPage}>View More</div>
                     </div>
                   </div>
               </div>
@@ -91,9 +91,9 @@ class NavBar extends Component {
                 <div class="btn-group">
                   <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Production</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
-                    <a class="dropdown-item" id='dropItem' onClick={this.Production}>Scroll</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.Production}>Scroll</div>
                      <div class="dropdown-divider" id='dropDivider'></div>
-                    <a class="dropdown-item" id='dropItem' onClick={this.ProductionPage}>View More</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.ProductionPage}>View More</div>
                   </div>
                 </div>
               </div>
@@ -101,9 +101,9 @@ class NavBar extends Component {
                 <div class="btn-group">
                   <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Design</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
-                    <a class="dropdown-item" id='dropItem' onClick={this.Design}>Scroll</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.Design}>Scroll</div>
                      <div class="dropdown-divider" id='dropDivider'></div>
-                    <a class="dropdown-item" id='dropItem' onClick={this.DesignPage}>View More</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.DesignPage}>View More</div>
                   </div>
                 </div>
               </div>
@@ -111,9 +111,9 @@ class NavBar extends Component {
                 <div class="btn-group">
                   <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Marketing & PR</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
-                    <a class="dropdown-item" id='dropItem' onClick={this.MarketingPR}>Scroll</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.MarketingPR}>Scroll</div>
                      <div class="dropdown-divider" id='dropDivider'></div>
-                    <a class="dropdown-item" id='dropItem' onClick={this.MarketingPRPage}>View More</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.MarketingPRPage}>View More</div>
                   </div>
                 </div>
               </div>
@@ -121,9 +121,9 @@ class NavBar extends Component {
                 <div class="btn-group">
                   <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Trade Show</p></button>
                  <div class="dropdown-menu" id='dropMenu'>
-                    <a class="dropdown-item" id='dropItem' onClick={this.TradeShow}>Scroll</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.TradeShow}>Scroll</div>
                      <div class="dropdown-divider" id='dropDivider'></div>
-                    <a class="dropdown-item" id='dropItem' onClick={this.TradeShowPage}>View More</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.TradeShowPage}>View More</div>
                   </div>
                 </div>
               </div>
@@ -131,9 +131,9 @@ class NavBar extends Component {
                 <div class="btn-group" id= 'dropGroup'>
                   <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Pop Up Shop</p></button>
                   <div class="dropdown-menu" id='dropMenu'>
-                    <a class="dropdown-item" id='dropItem' onClick={this.PopUp}>Scroll</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.PopUp}>Scroll</div>
                      <div class="dropdown-divider" id='dropDivider'></div>
-                    <a class="dropdown-item" id='dropItem' onClick={this.PopUpPage}>View More</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.PopUpPage}>View More</div>
                   </div>
                 </div>
               </div>
@@ -141,9 +141,9 @@ class NavBar extends Component {
                 <div class="btn-group">
                   <button type="button" id='dropDownButton' class="navButton dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p className="navTabsTop">Shipping & Logistics</p></button>
                   <div class="dropdown-menu" id='dropMenu'>
-                    <a class="dropdown-item" id='dropItem' onClick={this.ShippingLogistics}>Scroll</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.ShippingLogistics}>Scroll</div>
                     <div class="dropdown-divider" id='dropDivider'></div>
-                    <a class="dropdown-item" id='dropItem' onClick={this.ShippingLogisticsPage}>View More</a>
+                    <div class="dropdown-item" id='dropItem' onClick={this.ShippingLogisticsPage}>View More</div>
                   </div>
                 </div>
               </div>

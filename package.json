@@ -23,7 +23,7 @@
     "bcrypt": "^3.0.8",
     "bluebird": "^3.7.2",
     "chatkit": "0.0.1-security",
-    "connect-session-sequelize": "^6.1.0",
+    "connect-session-sequelize": "^6.1.1",
     "cookie-parser": "^1.4.4",
     "dotenv": "^7.0.0",
     "express": "^4.17.1",
@@ -33,7 +33,7 @@
     "mysql2": "^1.7.0",
     "node-pinterest": "0.0.4",
     "request-promise": "^4.2.5",
-    "sequelize": "^5.21.4",
+    "sequelize": "^5.21.5",
     "validator": "^10.11.0"
   },
   "engines": {
