@@ -8,7 +8,8 @@ import ProductionMarketing from './ProductionDesign'
 import './Index.css';
 import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
 import PopUpTradeShow from "./PopUpTradeShow";
-import Shipping from './Shipping'
+import Shipping from './Shipping';
+import Portfolio from './Portfolio'
 import Footer from './Footer'
 {/* <Marketing />
     <Sales />
@@ -24,7 +25,7 @@ class Index extends Component {
             <div>
                 <NavBar/>
                 <Intro/>
-                
+                <Portfolio/>
                 <Footer/>
             </div>
         );
