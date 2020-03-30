@@ -5,7 +5,7 @@ import './Index.css'
 
 const Portfolio = () => {
     return (
-        <div className="container">
+        <div className="container" style={{ backgroundColor: '#0a0a0a', position: 'absolute', right: 50, left: 50, top: 1020, height: 550 }}>
             <div className='row'>
                 <div className='col-md-6' id='portCol'>
                     <div class="card bg-dark text-white">
