@@ -13,7 +13,7 @@ class Intro extends Component {
                 <div className="row" style={{ backgroundColor: '#000', position: 'absolute', right: 0, left: 0, height: 900, marginTop: 20, }}>
                     <div className="col-md-1" />
                     <div className="col-md-6" id='introText'>
-                        <h2 className="sharp">Agency Name</h2>
+                        <h2 className="sharp">CTLA</h2><br/>
                         <div className='container'>
                             <div className='row'>
                                 <button className='col-md-2' id='portBtns'>SWIM</button>
@@ -31,9 +31,8 @@ class Intro extends Component {
                                 <button className='col-md-2' id='portBtns'>CONTACT</button>
                             </div>
                         </div>
-
-                        <p style={{ fontSize: 28 }} className='sharp'> </p>
-                        <p style={{ fontSize: 22 }} className='sharp'> From $20/mo. or $200 with referral.* </p>
+                        {/*<p style={{ fontSize: 28 }} className='sharp'> </p>
+                        <p style={{ fontSize: 22 }} className='sharp'> From $20/mo. or $200 with referral.* </p> */}<br/><br/>
                         <button className='introSignUpBtn' onClick={this.signUp}> Sign Up </button>
                         <button className='learnMore'>Learn more</button>
                     </div>
