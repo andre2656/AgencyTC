@@ -172,3 +172,9 @@
     height: auto;
     
 }
+#portBtns{
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: left;
+}

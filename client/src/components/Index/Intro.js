@@ -14,7 +14,7 @@ class Intro extends Component{
         <div className="col-md-1" />
         <div className="col-md-6" id='introText'>
             <h2 className="sharp">Agency Name</h2>
-            <button className='col-md-1'>SWIM</button>
+                    <button className='col-md-2' id='portBtns'>SWIM</button>
                     <button className='col-md-2' id='portBtns'>SURF</button>
                     <button className='col-md-2' id='portBtns'>DENIM</button>
                     <button className='col-md-3' id='portBtns'>PRESS & BLOGGERS</button> <br />
