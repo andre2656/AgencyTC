@@ -5,8 +5,19 @@ import './Index.css'
 
 const Portfolio = () => {
     return (
-        <div className="container" style={{ }}>
-            
+        <div className="container">
+            <div className='row'>
+
+            </div>
+            <div className='row'>
+
+            </div>
+            <div className='row'>
+
+            </div>
+            <div className='row'>
+
+            </div>
         </div>
     )
 }
