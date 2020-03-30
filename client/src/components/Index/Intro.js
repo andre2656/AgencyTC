@@ -14,7 +14,16 @@ class Intro extends Component{
         <div className="col-md-1" />
         <div className="col-md-6" id='introText'>
             <h2 className="sharp">Agency Name</h2>
-            <p style={{ fontSize: 28 }} className='sharp'>  Intro / Hook line to Sell or get User to keep scrolling</p>
+            <button className='col-md-1'>SWIM</button>
+                    <button className='col-md-2' id='portBtns'>SURF</button>
+                    <button className='col-md-2' id='portBtns'>DENIM</button>
+                    <button className='col-md-3' id='portBtns'>PRESS & BLOGGERS</button> <br />
+                    <button className='col-md-3' id='portBtns'>CREATIVE DIRECTION</button> 
+                    <button className='col-md-4' id='portBtns'>SPORTS & ACCESSORIES</button> <br />
+                    <button className='col-md-2' id='portBtns'>TECHNICAL</button>
+                    <button className='col-md-2' id='portBtns'>CURRENT</button>
+                    <button className='col-md-2' id='portBtns'>CONTACT</button>
+            <p style={{ fontSize: 28 }} className='sharp'> </p>
             <p style={{ fontSize: 22 }} className='sharp'> From $20/mo. or $200 with referral.* </p>
             <button className='introSignUpBtn' onClick={this.signUp}> Sign Up </button>
             <button className='learnMore'>Learn more</button>
