@@ -10,7 +10,11 @@ import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
 import PopUpTradeShow from "./PopUpTradeShow";
 import Shipping from './Shipping'
 import Footer from './Footer'
-
+{/* <Marketing />
+    <Sales />
+    <ProductionMarketing />
+    <PopUpTradeShow />
+    <Shipping /> */}
 class Index extends Component {
     state = {
         loggedIn: false
@@ -20,11 +24,7 @@ class Index extends Component {
             <div>
                 <NavBar/>
                 <Intro/>
-                <Marketing />
-                <Sales />
-                <ProductionMarketing/>
-                <PopUpTradeShow/>
-                <Shipping/>
+                
                 <Footer/>
             </div>
         );
